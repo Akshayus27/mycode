@@ -1,2 +1,5 @@
 i = str(input())
-print(len(i))
+count = 0
+for c in i:
+    count += 1
+print(count)
