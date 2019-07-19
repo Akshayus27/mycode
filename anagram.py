@@ -11,4 +11,7 @@ for g in range(g, len(n1)):
       count += 1
     else:
       continue
-print(abs(len(n1)-count))
+if count > 0:
+  print(abs(len(n1)-count))
+else:
+  print(count)
